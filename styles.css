@@ -1,0 +1,71 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background for the page */
+    color: #ffffff; /* White text for better readability on dark backgrounds */
+}
+
+#elementsContainer {
+    min-height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #1e1e1e; /* Slightly lighter dark shade for contrast */
+    display: block; /* Ensure elements stack vertically */
+}
+
+.buttonsContainer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #333333; /* Dark gray for the button container */
+    padding: 10px 0;
+    display: flex; /* Use flexbox to layout buttons */
+    justify-content: center; /* Center buttons horizontally */
+    flex-wrap: wrap; /* Allows buttons to wrap onto the next line if there isn't enough space */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px; /* Ensure some space around each button */
+    cursor: pointer;
+    display: block; /* Default display to block for each button */
+    background-color: #222222; /* Stylish purple */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners for modern look */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+    background-color: #444444; /* A lighter purple when hovered */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+button:active {
+    transform: translateY(1px); /* Slight press effect when clicked */
+}
+
+div {
+    padding: 10px;
+    margin: 5px 0;
+    background: #424242; /* Dark grey for elements */
+    color: #ffffff; /* White text */
+    border: 1px solid #757575; /* Lighter grey border for elements */
+    cursor: pointer;
+    font-size: 5vh; /* Font size set to 0.15vh (viewport height) */
+}
+
+div span {
+    flex-grow: 1; /* Make the text span take up remaining space */
+    text-align: left; /* Align text to the left */
+}
+
+.arrowsContainer {
+    display: flex; /* Use flexbox to layout arrows */
+    gap: 5px; /* Space between arrows */
+    align-items: center; /* Vertical alignment */
+    background-color: rgba(0,0,0,0); /* Stylish purple */
+    border: none;
+}
