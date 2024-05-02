@@ -60,7 +60,7 @@
         "label": "Custom Text",
         "title": "Fritekst",
         "subtitle": "klik for at tiløje",
-        "backgroundColor": "#FF8C00",
+        "backgroundColor": "#E63244",
         "textColor": "#FFFFFF",
         "borderColor": "#CC7000",
         "isCustom": true 
