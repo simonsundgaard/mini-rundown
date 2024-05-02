@@ -44,6 +44,7 @@ function addElement(title, subtitle, backgroundColor, textColor, borderColor) {
 
     // Text span
     const textSpan = document.createElement('span');
+    textSpan.style.width = '50%';
     textSpan.innerHTML = `<strong>${title}</strong>&nbsp&nbsp${subtitle}`;
     newElement.appendChild(textSpan);
 

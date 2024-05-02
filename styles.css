@@ -9,8 +9,9 @@ body, html {
 #elementsContainer {
     min-height: 50px;
     margin-bottom: 20px;
+    margin-left: 5vw;
+    margin-right: 5vw;
     padding: 10px;
-    background-color: #1e1e1e; /* Slightly lighter dark shade for contrast */
     display: block; /* Ensure elements stack vertically */
 }
 
@@ -49,17 +50,21 @@ button:active {
 
 div {
     padding: 10px;
+    min-height: 8vh;
     margin: 5px 0;
-    background: #424242; /* Dark grey for elements */
     color: #ffffff; /* White text */
-    border: 1px solid #757575; /* Lighter grey border for elements */
     cursor: pointer;
-    font-size: 15vh; /* Font size set to 0.15vh (viewport height) */
+    font-size: 5vh; /* Font size set to 0.15vh (viewport height) */
+    white-space: nowrap;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
 }
 
 div span {
     flex-grow: 1; /* Make the text span take up remaining space */
     text-align: left; /* Align text to the left */
+    
 }
 
 .arrowsContainer {
