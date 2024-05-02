@@ -54,7 +54,7 @@ div {
     color: #ffffff; /* White text */
     border: 1px solid #757575; /* Lighter grey border for elements */
     cursor: pointer;
-    font-size: 5vh; /* Font size set to 0.15vh (viewport height) */
+    font-size: 10vh; /* Font size set to 0.15vh (viewport height) */
 }
 
 div span {
