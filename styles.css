@@ -70,19 +70,19 @@ div {
     position: absolute;
     top: -2px;
     bottom: -2px;
-    width: 5vw; /* Width of the 'outline' */
+    width: 7vw; /* Width of the 'outline' */
     background-color: red; /* Color of the 'outline' */
     
 }
 
 .top-most-element::before {
-    left: -5vw; /* Position the pseudo-element just outside the left side */
-    border-radius: 25px 0px 0px 25px;
+    left: -7vw; /* Position the pseudo-element just outside the left side */
+    border-radius: 20px 0px 0px 20px;
 }
 
 .top-most-element::after {
-    right: -5vw; /* Position the pseudo-element just outside the right side */
-    border-radius: 0px 25px 25px 0px;
+    right: -7vw; /* Position the pseudo-element just outside the right side */
+    border-radius: 0px 20px 20px 0px;
 }
 
 div span {
