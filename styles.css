@@ -9,10 +9,11 @@ body, html {
 #elementsContainer {
     min-height: 50px;
     margin-bottom: 20px;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    padding: 10px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 20px;
     display: block; /* Ensure elements stack vertically */
+    justify-content: center;
 }
 
 .buttonsContainer {
@@ -56,14 +57,17 @@ div {
     cursor: pointer;
     font-size: 5vh; /* Font size set to 0.15vh (viewport height) */
     white-space: nowrap;
-    overflow-x: hidden;
     display: flex;
     align-items: center;
+}
+.top-most-element {
+    box-shadow: -5vw 0 0 0 red, 5vw 0 0 0 red; /* Shadow on both sides */
 }
 
 div span {
     flex-grow: 1; /* Make the text span take up remaining space */
     text-align: left; /* Align text to the left */
+    overflow-x: hidden;
     
 }
 

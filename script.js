@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     } else {
                         addElement(button.title, button.subtitle, button.backgroundColor, button.textColor, button.borderColor);
                     }
+                    updateArrows();
                 };
 
                 container.appendChild(newButton);
@@ -37,47 +38,44 @@ function addElement(title, subtitle, backgroundColor, textColor, borderColor) {
     const newElement = document.createElement('div');
     newElement.style.background = backgroundColor;
     newElement.style.color = textColor;
-    newElement.style.border = `1px solid ${borderColor}`;
-    newElement.style.display = 'flex'; /* Flex display for easier layout management */
-    newElement.style.justifyContent = 'space-between'; /* Spread elements across */
-    newElement.style.width = '100%'; /* Full width */
+    newElement.style.borderTop = `1px solid ${borderColor}`;
+    newElement.style.borderBottom = `1px solid ${borderColor}`;
+    newElement.style.display = 'flex';
+    newElement.style.justifyContent = 'space-between';
+    newElement.style.width = '100%';
 
-    // Text span
     const textSpan = document.createElement('span');
     textSpan.style.width = '50%';
-    textSpan.innerHTML = `<strong>${title}</strong>&nbsp&nbsp${subtitle}`;
+    textSpan.innerHTML = `<strong>${title}</strong>&nbsp;&nbsp;${subtitle}`;
     newElement.appendChild(textSpan);
 
-    // Container for arrows
     const arrowsContainer = document.createElement('div');
     arrowsContainer.className = 'arrowsContainer';
 
     const upArrow = document.createElement('button');
-    upArrow.textContent = "⬆"; /* Unicode arrow up */
+    upArrow.textContent = "⬆";
     upArrow.onclick = (event) => {
-        event.stopPropagation(); // Prevent triggering the parent element's click
+        event.stopPropagation();
         moveElement(newElement, -1);
     };
 
     const downArrow = document.createElement('button');
-    downArrow.textContent = "⬇"; /* Unicode arrow down */
+    downArrow.textContent = "⬇";
     downArrow.onclick = (event) => {
-        event.stopPropagation(); // Prevent triggering the parent element's click
+        event.stopPropagation();
         moveElement(newElement, 1);
     };
 
-    // Add arrows to container
     arrowsContainer.appendChild(upArrow);
     arrowsContainer.appendChild(downArrow);
-
-    // Append arrows container to element
     newElement.appendChild(arrowsContainer);
 
     newElement.onclick = function() {
         this.remove();
     };
 
-    container.appendChild(newElement);
+    container.appendChild(newElement); // Add new element to the bottom
+    updateBorders();
 }
 
 function moveElement(element, direction) {
@@ -87,11 +85,55 @@ function moveElement(element, direction) {
     if (index + direction >= 0 && index + direction < parent.children.length) {
         const sibling = parent.children[index + direction];
         if (direction < 0) {
-            parent.insertBefore(element, sibling); // Move up
+            parent.insertBefore(element, sibling);
         } else {
-            parent.insertBefore(sibling, element); // Move down
+            parent.insertBefore(sibling, element);
         }
     }
+    updateBorders();
+    updateArrows();
+}
+
+function updateBorders() {
+    const container = document.getElementById('elementsContainer');
+    Array.from(container.children).forEach(child => {
+        // Remove the class from all elements to ensure only the top-most has it
+        child.classList.remove('top-most-element');
+    });
+    if (container.firstChild) {
+        // Add the class only to the first child
+        container.firstChild.classList.add('top-most-element');
+    }
+}
+
+
+
+function updateArrows() {
+    const container = document.getElementById('elementsContainer');
+    Array.from(container.children).forEach((element, index) => {
+        let arrowsContainer = element.getElementsByClassName('arrowsContainer')[0];
+        arrowsContainer.innerHTML = ''; // Clear existing buttons
+
+        if (index > 0) { // If not the first element, add an up arrow
+            const upArrow = document.createElement('button');
+            upArrow.textContent = "⬆";
+            upArrow.onclick = (event) => {
+                event.stopPropagation();
+                moveElement(element, -1);
+            };
+            arrowsContainer.appendChild(upArrow);
+        }
+
+        if (index < container.children.length - 1) { // If not the last element, add a down arrow
+            const downArrow = document.createElement('button');
+            downArrow.textContent = "⬇";
+            downArrow.onclick = (event) => {
+                event.stopPropagation();
+                moveElement(element, 1);
+            };
+            arrowsContainer.appendChild(downArrow);
+        }
+    });
 }
 
 function lightenColor(color, percent) {
@@ -100,6 +142,5 @@ function lightenColor(color, percent) {
         R = (num >> 16) + amt,
         B = ((num >> 8) & 0x00FF) + amt,
         G = (num & 0x0000FF) + amt;
-
     return "#" + (0x1000000 + (R < 255 ? R : 255) * 0x10000 + (B < 255 ? B : 255) * 0x100 + (G < 255 ? G : 255)).toString(16).slice(1);
 }
