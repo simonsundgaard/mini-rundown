@@ -38,8 +38,7 @@ function addElement(title, subtitle, backgroundColor, textColor, borderColor) {
     const newElement = document.createElement('div');
     newElement.style.background = backgroundColor;
     newElement.style.color = textColor;
-    newElement.style.borderTop = `2px solid ${borderColor}`;
-    newElement.style.borderBottom = `2px solid ${borderColor}`;
+    newElement.style.border = `2px solid ${borderColor}`;
     newElement.style.display = 'flex';
     newElement.style.justifyContent = 'space-between';
     newElement.style.width = '100%';
