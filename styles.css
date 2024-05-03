@@ -2,7 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #121212; /* Dark background for the page */
+    background-color: #1A1A1A; /* Dark background for the page */
     color: #ffffff; /* White text for better readability on dark backgrounds */
 }
 
@@ -89,6 +89,7 @@ div span {
     flex-grow: 1; /* Make the text span take up remaining space */
     text-align: left; /* Align text to the left */
     overflow-x: hidden;
+    margin-left: 20px;
     
 }
 
