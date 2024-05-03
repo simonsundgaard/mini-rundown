@@ -38,8 +38,8 @@ function addElement(title, subtitle, backgroundColor, textColor, borderColor) {
     const newElement = document.createElement('div');
     newElement.style.background = backgroundColor;
     newElement.style.color = textColor;
-    newElement.style.borderTop = `1px solid ${borderColor}`;
-    newElement.style.borderBottom = `1px solid ${borderColor}`;
+    newElement.style.borderTop = `2px solid ${borderColor}`;
+    newElement.style.borderBottom = `2px solid ${borderColor}`;
     newElement.style.display = 'flex';
     newElement.style.justifyContent = 'space-between';
     newElement.style.width = '100%';
@@ -72,6 +72,8 @@ function addElement(title, subtitle, backgroundColor, textColor, borderColor) {
 
     newElement.onclick = function() {
         this.remove();
+        updateBorders();
+        updateArrows();
     };
 
     container.appendChild(newElement); // Add new element to the bottom

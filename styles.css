@@ -61,7 +61,24 @@ div {
     align-items: center;
 }
 .top-most-element {
-    box-shadow: -5vw 0 0 0 red, 5vw 0 0 0 red; /* Shadow on both sides */
+    position: relative; /* Needed for positioning pseudo-elements */
+}
+
+.top-most-element::before, .top-most-element::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: 2px;
+    width: 5vw; /* Width of the 'outline' */
+    background-color: red; /* Color of the 'outline' */
+}
+
+.top-most-element::before {
+    left: -5vw; /* Position the pseudo-element just outside the left side */
+}
+
+.top-most-element::after {
+    right: -5vw; /* Position the pseudo-element just outside the right side */
 }
 
 div span {
