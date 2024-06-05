@@ -39,7 +39,7 @@
       "title": "DF",
       "subtitle": "Rasmus Bøttcher",
       "backgroundColor": "#EAC73E",
-      "textColor": "#FFFFFF",
+      "textColor": "#111111",
       "borderColor": "#B89C23",
       "isCustom": "",
       "label": "Elm5"
@@ -57,7 +57,7 @@
       "title": "Kons.",
       "subtitle": "Mette Pabst",
       "backgroundColor": "#96B226",
-      "textColor": "#FFFFFF",
+      "textColor": "#111111",
       "borderColor": "#748F12",
       "isCustom": "",
       "label": "Elm7"
@@ -66,7 +66,7 @@
       "title": "LA",
       "subtitle": "Jakob Ussing",
       "backgroundColor": "#3FB2BE",
-      "textColor": "#FFFFFF",
+      "textColor": "#111111",
       "borderColor": "#278E99",
       "isCustom": "",
       "label": "Elm8"
@@ -84,7 +84,7 @@
       "title": "Enhl.",
       "subtitle": "Anne Dorte Rosgaard",
       "backgroundColor": "#E6801A",
-      "textColor": "#FFFFFF",
+      "textColor": "#111111",
       "borderColor": "#B65E05",
       "isCustom": "",
       "label": "Elm10"
@@ -99,14 +99,14 @@
       "label": "Elm11"
     },
     {
-        "title": "",
-        "subtitle": "",
-        "backgroundColor": "#333333",
-        "textColor": "#FFFFFF",
-        "borderColor": "#333333",
-        "isCustom": "",
-        "label": "Elm11A"
-      },
+      "title": "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp",
+      "subtitle": "",
+      "backgroundColor": "#333333",
+      "textColor": "#FFFFFF",
+      "borderColor": "#333333",
+      "isCustom": "",
+      "label": "Elm11A"
+    },
     {
       "title": "Frankrig (RN)",
       "subtitle": "Lasse Engelbrecht",
