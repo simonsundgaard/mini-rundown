@@ -2,7 +2,7 @@
     "name": "Mini-rundown EU-valg 2024",
     "short_name": "EU-valg",
     "description": "This is the mini-rundown application for EU-valg 2024",
-    "start_url": "/",
+    "start_url": "/mini-rundown/",
     "display": "standalone",
     "background_color": "#333333",
     "theme_color": "#000000",
