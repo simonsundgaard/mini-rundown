@@ -1,299 +1,308 @@
 [
     {
-      "label": "Element 1",
       "title": "Soc.dem.",
       "subtitle": "Line Gertsen",
       "backgroundColor": "#A82721",
       "textColor": "#FFFFFF",
       "borderColor": "#85150E",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm1"
     },
     {
-      "label": "Element 2",
       "title": "Venstre",
       "subtitle": "Maria Yde",
       "backgroundColor": "#254264",
       "textColor": "#FFFFFF",
       "borderColor": "#17314F",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm2"
     },
     {
-      "label": "Element 3",
       "title": "Moderaterne",
       "subtitle": "Therese Rokkjær",
       "backgroundColor": "#771B84",
       "textColor": "#FFFFFF",
       "borderColor": "#771B84",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm3"
     },
     {
-      "label": "Custom Text",
       "title": "SF",
       "subtitle": "Thøger Kirk",
       "backgroundColor": "#E07EA8",
       "textColor": "#FFFFFF",
       "borderColor": "#B05B83",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm4"
     },
     {
-      "label": "Element 4",
       "title": "DF",
       "subtitle": "Rasmus Bøttcher",
       "backgroundColor": "#EAC73E",
       "textColor": "#FFFFFF",
       "borderColor": "#B89C23",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm5"
     },
     {
-      "label": "Element 5",
       "title": "Dan.dem.",
       "subtitle": "Anne Dorte Rosgaard",
       "backgroundColor": "#8E1F27",
       "textColor": "#FFFFFF",
       "borderColor": "#8E1F27",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm6"
     },
     {
-      "label": "Element 6",
       "title": "Kons.",
       "subtitle": "Mette Pabst",
       "backgroundColor": "#96B226",
       "textColor": "#FFFFFF",
       "borderColor": "#748F12",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm7"
     },
     {
-      "label": "Custom Text 2",
       "title": "LA",
       "subtitle": "Jakob Ussing",
       "backgroundColor": "#3FB2BE",
       "textColor": "#FFFFFF",
       "borderColor": "#278E99",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm8"
     },
     {
-      "label": "",
       "title": "Rad.V.",
       "subtitle": "Joshua Hollingdale",
       "backgroundColor": "#733280",
       "textColor": "#FFFFFF",
       "borderColor": "#592166",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm9"
     },
     {
-      "label": "",
       "title": "Enhl.",
       "subtitle": "Anne Dorte Rosgaard",
       "backgroundColor": "#E6801A",
       "textColor": "#FFFFFF",
       "borderColor": "#B65E05",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm10"
     },
     {
-      "label": "",
       "title": "Alt.",
       "subtitle": "Joshua Hollingdale",
       "backgroundColor": "#2B8738",
       "textColor": "#FFFFFF",
       "borderColor": "#1B6C27",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm11"
     },
     {
-      "label": "",
+        "title": "",
+        "subtitle": "",
+        "backgroundColor": "#333333",
+        "textColor": "#FFFFFF",
+        "borderColor": "#333333",
+        "isCustom": "",
+        "label": "Elm11A"
+      },
+    {
       "title": "Frankrig (RN)",
       "subtitle": "Lasse Engelbrecht",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm12"
     },
     {
-      "label": "",
       "title": "Tyskland (CDU)",
       "subtitle": "Steen Nørskov",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm13"
     },
     {
-      "label": "",
       "title": "Italien (Italiens Brødre)",
       "subtitle": "Kristian Almblad",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm14"
     },
     {
-      "label": "",
       "title": "Sverige (Soc.dem.)",
       "subtitle": "Tinne Hjersing Knudsen",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm15"
     },
     {
-      "label": "",
       "title": "Ungarn (R&F)",
       "subtitle": "Cecilie Kallestrup",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm16"
     },
     {
-      "label": "",
       "title": "Frit hold NORD",
       "subtitle": "Frederik Gatzwiller",
       "backgroundColor": "#F3B3A6",
       "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": ""
+      "borderColor": "#8B4513",
+      "isCustom": "",
+      "label": "Elm17"
     },
     {
-      "label": "",
       "title": "Frit hold SYD",
       "subtitle": "Jakob Jørgensen",
       "backgroundColor": "#F3B3A6",
       "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": ""
+      "borderColor": "#8B4513",
+      "isCustom": "",
+      "label": "Elm18"
     },
     {
-      "label": "",
       "title": "Frit hold FYN",
       "subtitle": "Trine Rødkjær",
       "backgroundColor": "#F3B3A6",
       "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": ""
+      "borderColor": "#8B4513",
+      "isCustom": "",
+      "label": "Elm19"
     },
     {
-      "label": "",
       "title": "Frit hold ØSTJYL",
       "subtitle": "Kristian Pedersen",
       "backgroundColor": "#F3B3A6",
       "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": ""
+      "borderColor": "#8B4513",
+      "isCustom": "",
+      "label": "Elm20"
     },
     {
-      "label": "",
       "title": "Frit hold KBH1",
       "subtitle": "Luka Emil Jørgensen",
       "backgroundColor": "#F3B3A6",
       "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": ""
+      "borderColor": "#8B4513",
+      "isCustom": "",
+      "label": "Elm21"
     },
     {
-      "label": "",
       "title": "Frit hold KBH2",
       "subtitle": "Anne Lund",
       "backgroundColor": "#F3B3A6",
       "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": ""
+      "borderColor": "#8B4513",
+      "isCustom": "",
+      "label": "Elm22"
     },
     {
-      "label": "",
       "title": "Ankomst1",
       "subtitle": "Kirstine Biltoft",
       "backgroundColor": "#12EAEA",
       "textColor": "#111111",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm23"
     },
     {
-      "label": "",
       "title": "Ankomst2",
       "subtitle": "Rasmus Lindegaard",
       "backgroundColor": "#12EAEA",
       "textColor": "#111111",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm24"
     },
     {
-      "label": "",
       "title": "Jens v. skærm",
       "subtitle": "",
       "backgroundColor": "#7A3B69",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm25"
     },
     {
-      "label": "",
       "title": "Jens v. bord",
       "subtitle": "",
       "backgroundColor": "#7A3B69",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm26"
     },
     {
-      "label": "",
       "title": "Ole",
       "subtitle": "",
       "backgroundColor": "#9A879D",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm27"
     },
     {
-      "label": "",
       "title": "Anna",
       "subtitle": "",
       "backgroundColor": "#CFCFCD",
       "textColor": "#111111",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm28"
     },
     {
-      "label": "",
       "title": "Ole + Anna + Jens",
       "subtitle": "",
       "backgroundColor": "#CFCFCD",
       "textColor": "#111111",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm29"
     },
     {
-      "label": "",
       "title": "Genstart",
       "subtitle": "",
       "backgroundColor": "#D62828",
       "textColor": "#FFFFFF",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm30"
     },
     {
-      "label": "",
       "title": "Keynote",
       "subtitle": "",
       "backgroundColor": "#F77F00",
       "textColor": "#EAE2B7",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm31"
     },
     {
-      "label": "",
       "title": "DR.dk",
       "subtitle": "",
       "backgroundColor": "#FCBF49",
-      "textColor": "#EAE2B7",
+      "textColor": "#000000",
       "borderColor": "",
-      "isCustom": ""
+      "isCustom": "",
+      "label": "Elm32"
     },
     {
-      "label": "",
       "title": "Fritekst",
       "subtitle": "",
       "backgroundColor": "#31D843",
       "textColor": "#111111",
       "borderColor": "",
-      "isCustom": "TRUE"
+      "isCustom": "TRUE",
+      "label": "Custom text"
     }
   ]
