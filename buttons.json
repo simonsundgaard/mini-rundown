@@ -1,68 +1,299 @@
 [
     {
-        "label": "Element 1",
-        "title": "Venstre",
-        "subtitle": "X-borg store sal",
-        "backgroundColor": "#0077B6",
-        "textColor": "#FFFFFF",
-        "borderColor": "#005B80"
+      "label": "Element 1",
+      "title": "Soc.dem.",
+      "subtitle": "Line Gertsen",
+      "backgroundColor": "#A82721",
+      "textColor": "#FFFFFF",
+      "borderColor": "#85150E",
+      "isCustom": ""
     },
     {
-        "label": "Element 2",
-        "title": "Socialdemokratiet",
-        "subtitle": "Hans og Peter",
-        "backgroundColor": "#FF6B6B",
-        "textColor": "#FFFFFF",
-        "borderColor": "#CC5555"
+      "label": "Element 2",
+      "title": "Venstre",
+      "subtitle": "Maria Yde",
+      "backgroundColor": "#254264",
+      "textColor": "#FFFFFF",
+      "borderColor": "#17314F",
+      "isCustom": ""
     },
     {
-        "label": "Element 3",
-        "title": "Konservative",
-        "subtitle": "Vega",
-        "backgroundColor": "#06D6A0",
-        "textColor": "#FFFFFF",
-        "borderColor": "#05B78E"
+      "label": "Element 3",
+      "title": "Moderaterne",
+      "subtitle": "Therese Rokkjær",
+      "backgroundColor": "#771B84",
+      "textColor": "#FFFFFF",
+      "borderColor": "#771B84",
+      "isCustom": ""
     },
     {
-        "label": "Custom Text",
-        "title": "Fritekst",
-        "subtitle": "klik for at tiløje",
-        "backgroundColor": "#FF8C00",
-        "textColor": "#FFFFFF",
-        "borderColor": "#CC7000",
-        "isCustom": true 
+      "label": "Custom Text",
+      "title": "SF",
+      "subtitle": "Thøger Kirk",
+      "backgroundColor": "#E07EA8",
+      "textColor": "#FFFFFF",
+      "borderColor": "#B05B83",
+      "isCustom": ""
     },
     {
-        "label": "Element 4",
-        "title": "Ny Venstre",
-        "subtitle": "X-borg store sal",
-        "backgroundColor": "#9977B6",
-        "textColor": "#FFFFFF",
-        "borderColor": "#005B80"
+      "label": "Element 4",
+      "title": "DF",
+      "subtitle": "Rasmus Bøttcher",
+      "backgroundColor": "#EAC73E",
+      "textColor": "#FFFFFF",
+      "borderColor": "#B89C23",
+      "isCustom": ""
     },
     {
-        "label": "Element 5",
-        "title": "Hansepartiet",
-        "subtitle": "Hans og Peter",
-        "backgroundColor": "#112233",
-        "textColor": "#FFFFFF",
-        "borderColor": "#CC5555"
+      "label": "Element 5",
+      "title": "Dan.dem.",
+      "subtitle": "Anne Dorte Rosgaard",
+      "backgroundColor": "#8E1F27",
+      "textColor": "#FFFFFF",
+      "borderColor": "#8E1F27",
+      "isCustom": ""
     },
     {
-        "label": "Element 6",
-        "title": "Konservative",
-        "subtitle": "Vega",
-        "backgroundColor": "#06D6A0",
-        "textColor": "#FFFFFF",
-        "borderColor": "#05B78E"
+      "label": "Element 6",
+      "title": "Kons.",
+      "subtitle": "Mette Pabst",
+      "backgroundColor": "#96B226",
+      "textColor": "#FFFFFF",
+      "borderColor": "#748F12",
+      "isCustom": ""
     },
     {
-        "label": "Custom Text",
-        "title": "Fritekst",
-        "subtitle": "klik for at tiløje",
-        "backgroundColor": "#E63244",
-        "textColor": "#FFFFFF",
-        "borderColor": "#CC7000",
-        "isCustom": true 
+      "label": "Custom Text 2",
+      "title": "LA",
+      "subtitle": "Jakob Ussing",
+      "backgroundColor": "#3FB2BE",
+      "textColor": "#FFFFFF",
+      "borderColor": "#278E99",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Rad.V.",
+      "subtitle": "Joshua Hollingdale",
+      "backgroundColor": "#733280",
+      "textColor": "#FFFFFF",
+      "borderColor": "#592166",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Enhl.",
+      "subtitle": "Anne Dorte Rosgaard",
+      "backgroundColor": "#E6801A",
+      "textColor": "#FFFFFF",
+      "borderColor": "#B65E05",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Alt.",
+      "subtitle": "Joshua Hollingdale",
+      "backgroundColor": "#2B8738",
+      "textColor": "#FFFFFF",
+      "borderColor": "#1B6C27",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frankrig (RN)",
+      "subtitle": "Lasse Engelbrecht",
+      "backgroundColor": "#BA5C12",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Tyskland (CDU)",
+      "subtitle": "Steen Nørskov",
+      "backgroundColor": "#BA5C12",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Italien (Italiens Brødre)",
+      "subtitle": "Kristian Almblad",
+      "backgroundColor": "#BA5C12",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Sverige (Soc.dem.)",
+      "subtitle": "Tinne Hjersing Knudsen",
+      "backgroundColor": "#BA5C12",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Ungarn (R&F)",
+      "subtitle": "Cecilie Kallestrup",
+      "backgroundColor": "#BA5C12",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frit hold NORD",
+      "subtitle": "Frederik Gatzwiller",
+      "backgroundColor": "#F3B3A6",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frit hold SYD",
+      "subtitle": "Jakob Jørgensen",
+      "backgroundColor": "#F3B3A6",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frit hold FYN",
+      "subtitle": "Trine Rødkjær",
+      "backgroundColor": "#F3B3A6",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frit hold ØSTJYL",
+      "subtitle": "Kristian Pedersen",
+      "backgroundColor": "#F3B3A6",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frit hold KBH1",
+      "subtitle": "Luka Emil Jørgensen",
+      "backgroundColor": "#F3B3A6",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Frit hold KBH2",
+      "subtitle": "Anne Lund",
+      "backgroundColor": "#F3B3A6",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Ankomst1",
+      "subtitle": "Kirstine Biltoft",
+      "backgroundColor": "#12EAEA",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Ankomst2",
+      "subtitle": "Rasmus Lindegaard",
+      "backgroundColor": "#12EAEA",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Jens v. skærm",
+      "subtitle": "",
+      "backgroundColor": "#7A3B69",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Jens v. bord",
+      "subtitle": "",
+      "backgroundColor": "#7A3B69",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Ole",
+      "subtitle": "",
+      "backgroundColor": "#9A879D",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Anna",
+      "subtitle": "",
+      "backgroundColor": "#CFCFCD",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Ole + Anna + Jens",
+      "subtitle": "",
+      "backgroundColor": "#CFCFCD",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Genstart",
+      "subtitle": "",
+      "backgroundColor": "#D62828",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Keynote",
+      "subtitle": "",
+      "backgroundColor": "#F77F00",
+      "textColor": "#EAE2B7",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "DR.dk",
+      "subtitle": "",
+      "backgroundColor": "#FCBF49",
+      "textColor": "#EAE2B7",
+      "borderColor": "",
+      "isCustom": ""
+    },
+    {
+      "label": "",
+      "title": "Fritekst",
+      "subtitle": "",
+      "backgroundColor": "#31D843",
+      "textColor": "#111111",
+      "borderColor": "",
+      "isCustom": "TRUE"
     }
-    ]
+  ]
