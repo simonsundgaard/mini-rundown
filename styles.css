@@ -42,6 +42,7 @@ button {
 
 .large-arrow-button{
     font-size: 3rem;  /* Larger text size */
+    background-color: rgba(0,0,0,0); 
     padding: 10px;      /* Ample padding for a larger button appearance */
     margin: 5px;        /* Some margin for spacing */
     cursor: pointer;    /* Cursor indicates clickable area */
