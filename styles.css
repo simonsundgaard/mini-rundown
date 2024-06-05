@@ -29,7 +29,7 @@ body, html {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 8px 15px;
     margin: 5px; /* Ensure some space around each button */
     cursor: pointer;
     display: block; /* Default display to block for each button */
@@ -43,8 +43,7 @@ button {
 .large-arrow-button{
     font-size: 3rem;  /* Larger text size */
     background-color: rgba(0,0,0,0); 
-    padding: 10px;      /* Ample padding for a larger button appearance */
-    margin: 5px;        /* Some margin for spacing */
+    padding: 5px;      /* Ample padding for a larger button appearance */
     cursor: pointer;    /* Cursor indicates clickable area */
     border-radius: 5px; /* Optional: rounded corners for aesthetics */
 }
@@ -59,8 +58,8 @@ button:active {
 }
 
 div {
-    padding: 10px;
-    min-height: 8vh;
+    padding: 0.5vh;
+    min-height: 7vh;
     margin: 5px 0;
     color: #ffffff; /* White text */
     cursor: pointer;
