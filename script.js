@@ -118,6 +118,7 @@ function updateArrows() {
         if (index > 0) { // If not the first element, add an up arrow
             const upArrow = document.createElement('button');
             upArrow.textContent = "⬆";
+            upArrow.className += 'large-arrow-button';
             upArrow.onclick = (event) => {
                 event.stopPropagation();
                 moveElement(element, -1);
@@ -128,6 +129,7 @@ function updateArrows() {
         if (index < container.children.length - 1) { // If not the last element, add a down arrow
             const downArrow = document.createElement('button');
             downArrow.textContent = "⬇";
+            downArrow.className += 'large-arrow-button';
             downArrow.onclick = (event) => {
                 event.stopPropagation();
                 moveElement(element, 1);

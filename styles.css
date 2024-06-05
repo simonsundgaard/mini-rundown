@@ -33,11 +33,19 @@ button {
     margin: 5px; /* Ensure some space around each button */
     cursor: pointer;
     display: block; /* Default display to block for each button */
-    background-color: #222222; /* Stylish purple */
+    background-color: #222222; 
     color: #ffffff; /* White text */
     border: none;
     border-radius: 5px; /* Rounded corners for modern look */
     transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.large-arrow-button{
+    font-size: 3rem;  /* Larger text size */
+    padding: 10px;      /* Ample padding for a larger button appearance */
+    margin: 5px;        /* Some margin for spacing */
+    cursor: pointer;    /* Cursor indicates clickable area */
+    border-radius: 5px; /* Optional: rounded corners for aesthetics */
 }
 
 button:hover {
@@ -89,7 +97,7 @@ div span {
     flex-grow: 1; /* Make the text span take up remaining space */
     text-align: left; /* Align text to the left */
     overflow-x: hidden;
-    margin-left: 20px;
+    padding-left: 20px;
     
 }
 
@@ -97,6 +105,6 @@ div span {
     display: flex; /* Use flexbox to layout arrows */
     gap: 5px; /* Space between arrows */
     align-items: center; /* Vertical alignment */
-    background-color: rgba(0,0,0,0); /* Stylish purple */
+    background-color: rgba(0,0,0,0); 
     border: none;
 }
