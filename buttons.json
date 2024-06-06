@@ -1,6 +1,6 @@
 [
     {
-      "title": "(A) Soc.dem.",
+      "title": "A - Soc.dem.",
       "subtitle": "Line Gertsen",
       "backgroundColor": "#A82721",
       "textColor": "#FFFFFF",
@@ -9,7 +9,7 @@
       "label": "Elm1"
     },
     {
-      "title": "(V) Venstre",
+      "title": "V - Venstre",
       "subtitle": "Maria Yde",
       "backgroundColor": "#254264",
       "textColor": "#FFFFFF",
@@ -18,7 +18,7 @@
       "label": "Elm2"
     },
     {
-      "title": "(M) Moderaterne",
+      "title": "M - Moderaterne",
       "subtitle": "Therese Rokkjær",
       "backgroundColor": "#771B84",
       "textColor": "#FFFFFF",
@@ -27,7 +27,7 @@
       "label": "Elm3"
     },
     {
-      "title": "(F) SF",
+      "title": "F - SF",
       "subtitle": "Thøger Kirk",
       "backgroundColor": "#E07EA8",
       "textColor": "#FFFFFF",
@@ -36,7 +36,7 @@
       "label": "Elm4"
     },
     {
-      "title": "(O) DF",
+      "title": "O - DF",
       "subtitle": "Rasmus Bøttcher",
       "backgroundColor": "#EAC73E",
       "textColor": "#FFFFFF",
@@ -45,7 +45,7 @@
       "label": "Elm5"
     },
     {
-      "title": "(Æ) Dan.dem.",
+      "title": "Æ - Dan.dem.",
       "subtitle": "Anne Dorte Rosgaard",
       "backgroundColor": "#8E1F27",
       "textColor": "#FFFFFF",
@@ -54,7 +54,7 @@
       "label": "Elm6"
     },
     {
-      "title": "(C) Kons.",
+      "title": "C - Kons.",
       "subtitle": "Mette Pabst",
       "backgroundColor": "#96B226",
       "textColor": "#FFFFFF",
@@ -63,7 +63,7 @@
       "label": "Elm7"
     },
     {
-      "title": "(I) LA",
+      "title": "I - LA",
       "subtitle": "Jakob Ussing",
       "backgroundColor": "#3FB2BE",
       "textColor": "#FFFFFF",
@@ -90,7 +90,7 @@
       "label": "Elm10"
     },
     {
-      "title": "(Å) Alt.",
+      "title": "Å - Alt.",
       "subtitle": "Joshua Hollingdale",
       "backgroundColor": "#2B8738",
       "textColor": "#FFFFFF",
@@ -99,7 +99,7 @@
       "label": "Elm11"
     },
     {
-      "title": "Frankrig (RN)",
+      "title": "Frankrig - RN",
       "subtitle": "Lasse Engelbrecht",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
@@ -108,7 +108,7 @@
       "label": "Elm12"
     },
     {
-      "title": "Tyskland (CDU)",
+      "title": "Tyskland - CDU",
       "subtitle": "Steen Nørskov",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
@@ -117,7 +117,7 @@
       "label": "Elm13"
     },
     {
-      "title": "Italien (Italiens Brødre)",
+      "title": "Italien - Italiens Brødre",
       "subtitle": "Kristian Almblad",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
@@ -126,7 +126,7 @@
       "label": "Elm14"
     },
     {
-      "title": "Sverige (Soc.dem.)",
+      "title": "Sverige - Soc.dem.",
       "subtitle": "Tinne Hjersing Knudsen",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
@@ -135,7 +135,7 @@
       "label": "Elm15"
     },
     {
-      "title": "Ungarn (R&F)",
+      "title": "Ungarn - R&F",
       "subtitle": "Cecilie Kallestrup",
       "backgroundColor": "#BA5C12",
       "textColor": "#FFFFFF",
