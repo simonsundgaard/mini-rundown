@@ -243,22 +243,31 @@
       "label": "Elm27"
     },
     {
+      "title": "Ole + Anna",
+      "subtitle": "",
+      "backgroundColor": "#9A879D",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": "",
+      "label": "Elm29"
+    },
+    {
+      "title": "Ole + Anna + Jens",
+      "subtitle": "",
+      "backgroundColor": "#9A879D",
+      "textColor": "#FFFFFF",
+      "borderColor": "",
+      "isCustom": "",
+      "label": "Elm33"
+    },
+    {
       "title": "Anna",
       "subtitle": "",
-      "backgroundColor": "#CFCFCD",
+      "backgroundColor": "#CDBAD0",
       "textColor": "#111111",
       "borderColor": "",
       "isCustom": "",
       "label": "Elm28"
-    },
-    {
-      "title": "",
-      "subtitle": "",
-      "backgroundColor": "#CFCFCD",
-      "textColor": "#111111",
-      "borderColor": "",
-      "isCustom": "",
-      "label": "Elm29"
     },
     {
       "title": "Genstart",
@@ -295,5 +304,14 @@
       "borderColor": "",
       "isCustom": "TRUE",
       "label": "Custom text"
+    },
+    {
+      "title": "😀",
+      "subtitle": "",
+      "backgroundColor": "#DDDDDD",
+      "textColor": "#111111",
+      "borderColor": "#DDDDDD",
+      "isCustom": "",
+      "label": "Elm34"
     }
   ]
